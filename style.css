@@ -7,11 +7,11 @@
 
 body {
   background: #0f172a;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+  padding: 20px;
 }
 
 .background-circles .circle {
@@ -43,11 +43,11 @@ body {
   -webkit-backdrop-filter: blur(15px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 24px;
-  padding: 3rem;
+  padding: 2.5rem;
   text-align: center;
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-  width: 90%;
-  max-width: 450px;
+  width: 100%;
+  max-width: 400px;
 }
 
 h1 {
@@ -108,11 +108,10 @@ p {
 @media screen and (max-width: 768px) {
   .glass-card {
     padding: 2rem 1.5rem;
-    width: 95%;
   }
 
   h1 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   p {
