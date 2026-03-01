@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +14,6 @@ body {
   overflow: hidden;
 }
 
-/* Background aesthetic circles */
 .background-circles .circle {
   position: absolute;
   border-radius: 50%;
@@ -39,7 +37,6 @@ body {
   right: 25%;
 }
 
-/* Glassmorphism Card */
 .glass-card {
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(15px);
@@ -65,7 +62,6 @@ p {
   font-size: 0.9rem;
 }
 
-/* Button Styling */
 .main-btn {
   background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
   color: white;
@@ -87,7 +83,6 @@ p {
   transform: translateY(0);
 }
 
-/* Result Section */
 .result-area {
   margin-top: 1rem;
   padding-top: 2rem;
@@ -108,4 +103,29 @@ p {
   font-weight: 700;
   margin-top: 0.5rem;
   text-shadow: 0 0 20px rgba(59, 130, 246, 0.4);
+}
+
+@media screen and (max-width: 768px) {
+  .glass-card {
+    padding: 2rem 1.5rem;
+    width: 95%;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.85rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .grade-text {
+    font-size: 3rem;
+  }
+
+  .main-btn {
+    padding: 10px 20px;
+    width: 100%;
+  }
 }
