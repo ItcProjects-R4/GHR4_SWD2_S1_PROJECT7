@@ -32,16 +32,16 @@ This project allows users to increase, decrease, and reset values easily through
 
 ---
 
+
 ## 👥 Team Members
 
-| # | Name |
-|---|------|
-| 1 | Mohamed Shabaan Suliman Elgishy |
-| 2 | Nourhan Sameh Gamal Fayad |
-| 3 | Mohanad Mohamed Fekry Mohamed |
-| 4 | Alyaa Mosad Aly Ezz |
-| 5 | Ahmed Hassan Ahmed Khalil |
+- Mohamed Shabaan Suliman Elgishy
+- Nourhan Sameh Gamal Fayad
+- Mohanad Mohamed Fekry Mohamed
+- Alyaa Mosad Aly Ezz
+- Ahmed Hassan Ahmed Khalil
 
 ---
+
 
 > ⭐ If you like this project, give it a star!
