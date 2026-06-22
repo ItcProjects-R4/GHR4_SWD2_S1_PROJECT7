@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+.navbar {
+  background-color: #0d0f1a !important;
+  font-family: 'Inter', sans-serif;
+  padding-top: 0;
+  padding-bottom: 0;
+  min-height: 60px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+  font-style: italic;
+  color: #e50914 !important;
+  text-decoration: none;
+}
+
+.navLinks {
+  gap: 8px;
+}
+
+.navLink {
+  font-size: 15px;
+  font-weight: 500;
+  color: #c8cad4 !important;
+  white-space: nowrap;
+}
+
+.navLink:hover {
+  color: #ffffff !important;
+}
+
+.navLink.active {
+  color: #ffffff !important;
+  font-weight: 700;
+}
+
+.toggler {
+  border-color: #444 !important;
+  filter: invert(1);
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 8px 0;
+}
+
+@media (min-width: 992px) {
+  .right { padding: 0; }
+}
+
+.searchBox input {
+  background-color: #1a1c2e;
+  border: 1px solid #2e3048;
+  border-radius: 20px;
+  padding: 6px 16px;
+  width: 200px;
+  color: #c8cad4;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  outline: none;
+}
+
+.searchBox input::placeholder {
+  color: #8b8fa8;
+}
+
+.authIcons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.authIcon {
+  color: #c8cad4;
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.authIcon:hover {
+  color: #e50914;
+}
+
+.userArea {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.userName {
+  color: #c8cad4;
+  font-size: 14px;
+}
+
+.logoutBtn {
+  background-color: transparent;
+  border: 1px solid #e50914;
+  color: #e50914;
+  padding: 4px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.logoutBtn:hover {
+  background-color: #e50914;
+  color: #ffffff;
+}
