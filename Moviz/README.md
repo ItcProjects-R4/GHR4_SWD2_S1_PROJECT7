@@ -263,11 +263,6 @@ Port the platform to iOS and Android using React Native for a native-feel mobile
 
 [![Watch the demo](https://img.shields.io/badge/▶_Watch_Demo-YouTube-FF0000?style=for-the-badge&logo=youtube)](https://youtu.be/sEvB-GbGEK0)
 
----
-
-## 📄 License
-
-This project was built for educational purposes as part of a frontend development course.
 
 ---
 
