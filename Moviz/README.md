@@ -241,6 +241,7 @@ Allow authenticated users to rate movies on a 5-star scale and write personal re
 
 ### 04 — React Native Mobile App
 Port the platform to iOS and Android using React Native for a native-feel mobile experience.
+
 ---
 
 ## 👥 Team Members
