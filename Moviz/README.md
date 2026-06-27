@@ -258,7 +258,7 @@ Port the platform to iOS and Android using React Native for a native-feel mobile
 
 ## 🌐 Live Demo
 
-[![Live Site](https://img.shields.io/badge/🌐_Live_Site-Vercel-000000?style=for-the-badge&logo=vercel)](https://moviz-theta.vercel.app/)
+[![Live Site](https://img.shields.io/badge/🌐_Live_Site-Vercel-000000?style=for-the-badge&logo=vercel)](https://moviz-22er.vercel.app/)
 
 ## 🎥 Demo Video
 
